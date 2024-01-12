@@ -1,0 +1,157 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.home {
+  margin-top: 250px;
+}
+.play {
+  border-radius: 20px;
+  padding-left: 70px;
+  padding-right: 70px;
+  background-color: rgb(33, 229, 33);
+}
+.question, .mammal {
+  color: black;
+}
+.fifteen {
+  color: black;
+  text-align: start;
+  display: flex;
+
+}
+
+.quiz {
+  margin-top: 250px;
+  background-color: white;
+  padding: 40px;
+  
+}
+.mammal {
+  margin-bottom: 100px;
+}
+
+.dog {
+  padding-left: 192px;
+  padding-right: 192px;
+  background-color: rgb(27, 164, 223);
+  border-radius: 30px;
+  margin-right: 20px;
+}
+
+.eleph {
+  padding-left: 175px;
+  padding-right: 175px;
+  background-color: rgb(27, 164, 223);
+  border-radius: 30px;
+}
+
+.goat {
+  padding-left: 190px;
+  padding-right: 190px;
+  background-color: rgb(27, 164, 223);
+  border-radius: 30px;
+}
+.lion {
+  padding-left: 190px;
+  padding-right: 190px;
+  background-color:rgb(27, 164, 223);
+  border-radius: 30px;
+}
+.option-t {
+  display: flex;
+  justify-content: space-between;
+}
+.option-o {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.next-buttons {
+  margin-top: 50px;
+  position: relative;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-bottom: 30px;
+  
+}
+
+.previous {
+background-color: blue;
+}
+.next {
+background-color: green;
+}
+
+.quit {
+background-color: rgb(255, 0, 0);
+}
+
+.Ques {
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  
+}
+
+.practice {
+  background-color: rgb(255, 255, 255);
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  
+}
+.total {
+  
+  height: 250px;
+  width: 680px;
+  margin-top: 100px;
+  margin-bottom: 330px;
+
+}
+
+.last-buttons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.need {
+  color: black;
+  margin-top: 10px;
+}
+.twenty {
+  color: blue;
+}
+.res {
+  color: green;
+}
+
+.all {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.para {
+  margin: 8px;
+}
+
+.play-again {
+color: blue;
+background-color: rgb(255, 255, 255)
+}
+
+.back-to-home {
+color: green;
+background-color: white;
+}
