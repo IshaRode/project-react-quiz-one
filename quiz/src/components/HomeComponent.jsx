@@ -13,10 +13,6 @@ export default class HomeComponent extends Component {
     <div>
         <button className='play'>Play</button>
     </div>
-
-      
-      
-      
     </div>
     )
   }

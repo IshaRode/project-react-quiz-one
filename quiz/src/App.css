@@ -14,62 +14,37 @@
   padding-right: 70px;
   background-color: rgb(33, 229, 33);
 }
-.question, .mammal {
+.question,
+.mammal {
   color: black;
+  margin-bottom: 100px;
 }
 .fifteen {
   color: black;
   text-align: start;
   display: flex;
-
 }
 
 .quiz {
   margin-top: 250px;
   background-color: white;
   padding: 40px;
-  
-}
-.mammal {
-  margin-bottom: 100px;
 }
 
-.dog {
-  padding-left: 192px;
-  padding-right: 192px;
-  background-color: rgb(27, 164, 223);
-  border-radius: 30px;
-  margin-right: 20px;
-}
-
-.eleph {
-  padding-left: 175px;
-  padding-right: 175px;
-  background-color: rgb(27, 164, 223);
-  border-radius: 30px;
-}
-
-.goat {
-  padding-left: 190px;
-  padding-right: 190px;
-  background-color: rgb(27, 164, 223);
-  border-radius: 30px;
-}
-.lion {
-  padding-left: 190px;
-  padding-right: 190px;
-  background-color:rgb(27, 164, 223);
-  border-radius: 30px;
-}
-.option-t {
+.options {
+  width: 90%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  margin-left: 60px;
 }
-.option-o {
-  margin-bottom: 20px;
-  display: flex;
-  justify-content: space-between;
-
+.options button {
+  background-color: rgb(57, 168, 228);
+  border-radius: 20px;
+  width: 480px;
+  margin: 25px 0px;
 }
 
 .next-buttons {
@@ -79,18 +54,17 @@
   gap: 24px;
   justify-content: center;
   margin-bottom: 30px;
-  
 }
 
 .previous {
-background-color: blue;
+  background-color: blue;
 }
 .next {
-background-color: green;
+  background-color: green;
 }
 
 .quit {
-background-color: rgb(255, 0, 0);
+  background-color: rgb(255, 0, 0);
 }
 
 .Ques {
@@ -98,7 +72,6 @@ background-color: rgb(255, 0, 0);
   display: flex;
   justify-content: space-between;
   font-weight: bold;
-  
 }
 
 .practice {
@@ -107,15 +80,12 @@ background-color: rgb(255, 0, 0);
   padding-right: 30px;
   padding-bottom: 20px;
   padding-top: 20px;
-  
 }
 .total {
-  
   height: 250px;
   width: 680px;
   margin-top: 100px;
   margin-bottom: 330px;
-
 }
 
 .last-buttons {
@@ -139,7 +109,6 @@ background-color: rgb(255, 0, 0);
 .all {
   display: flex;
   justify-content: center;
-  
 }
 
 .para {
@@ -147,11 +116,11 @@ background-color: rgb(255, 0, 0);
 }
 
 .play-again {
-color: blue;
-background-color: rgb(255, 255, 255)
+  color: blue;
+  background-color: rgb(255, 255, 255);
 }
 
 .back-to-home {
-color: green;
-background-color: white;
+  color: green;
+  background-color: white;
 }
